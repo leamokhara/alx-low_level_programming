@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c main.c -o "$(echo main.c | cut -d . -f 1).o"
+gcc -c 1-main.c -o "$(echo 1-main.c | cut -d . -f 1).o"
