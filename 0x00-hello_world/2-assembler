@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -masm=intel 2-main.c "$(echo 2-main.c | cut -d . -f 1).o"
+gcc -S -masm=intel 2-main.c
