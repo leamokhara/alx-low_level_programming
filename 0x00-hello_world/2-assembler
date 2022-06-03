@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c 2-main.c 2-main.s
+gcc -S -masm=intel 2-main.c
