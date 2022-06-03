@@ -1,20 +1,20 @@
 #!/bin/bash
 #include <stdio.h>
 
-#include <string.h>
+/**
+ *
+ * * main-Entry point
+ *
+ * * Return: 0 if successful
+ *
+ * */
 
- 
-
-int main()
+int main(void)
 
 {
 
-	   char string[40];
+	puts("\"Programming is like building a multilingual puzzle");
 
-	      strcpy(str, "Programming is like building a multilingual puzzle");
-
-	         puts(string);
-
-		    return 0;
+	return (0);
 
 }
