@@ -7,6 +7,7 @@
  * my_function
  * main function goes here
  */
+
 int main(void)
 
 	int n;
