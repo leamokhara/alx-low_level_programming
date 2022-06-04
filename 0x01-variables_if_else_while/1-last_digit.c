@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * header goes here
- * my_function
- * main function goes here
+ * main - entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
