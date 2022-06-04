@@ -2,6 +2,7 @@
 /**
  * my_first c - programming
  * main - entry point
+ *
  * Return: 0 if sucessful
  */
 int main(void)
