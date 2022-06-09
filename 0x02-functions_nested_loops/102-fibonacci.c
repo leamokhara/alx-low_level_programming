@@ -5,7 +5,7 @@
  *
  * Return: int.
  */
-Return: int.
+int main(void)
 {
 	long i = 0;
 	long j = 1;
