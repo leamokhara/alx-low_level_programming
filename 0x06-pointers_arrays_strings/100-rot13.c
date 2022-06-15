@@ -1,22 +1,32 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer
- * @n: integer to print
+ * rot13 - encodes a string using rot13
+ * @str: the string to encode
+ *
+ * Return: encode string
  */
-void print_number(int n)
+char *rot13(char *str)
 {
-	if (n < 0)
+	int i, j;
+
+	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char rot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
+	i = 0;
+	while (str[i] != '\0')
 	{
-		_putchar('-');
-		if (n < -9)
-			print_number(n / -10);
-		_putchar('0' - n % 10);
+		j = 0;
+		while (alpha[j] != '\0')
+		{
+			if (str[i] == alpha[j])
+			{
+				str[i] = rot[j];
+				break;
+			}
+			j++;
+		}
+		i++;
 	}
-	else
-	{
-		if (n > 9)
-			print_number(n / 10);
-		_putchar(n % 10 + '0');
-	}
+	return (str);
 }
