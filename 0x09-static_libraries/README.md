@@ -1,3 +1,13 @@
-What is a static library, how does it work, how to create one, and how to use it
+iWhat are nested loops and how to use them
 
-Basic usage of ar, ranlib, nm
+What is a function and how do you use functions
+
+What is the difference between a declaration and a definition of a function
+
+What is a prototype
+
+Scope of variables
+
+What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
+
+What are header files and how to to use them with #include
