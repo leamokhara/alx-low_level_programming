@@ -1,12 +1,12 @@
-#include "lists.h"
 #include <stdio.h>
+#include "lists.h"
 #include <stdlib.h>
 
 /**
- * print_list - prints all elements of a list
- * @h: the pointer that points to the struct.
+ * print_list - Print all elements of a list_t list
+ * @h: Pointer to the first element of the list
  *
- * Return: number of nodes.
+ * Return: Number of elements in the list
  */
 size_t print_list(const list_t *h)
 {
