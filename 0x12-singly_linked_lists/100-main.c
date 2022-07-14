@@ -1,22 +1,12 @@
 #include <stdio.h>
-#include "lists.h"
-#include <stdlib.h>
 
 /**
- * print_list - Print all elements of a list_t list
- * @h: Pointer to the first element of the list
+ * main - check the code
  *
- * Return: Number of elements in the list
+ * Return; Always 0
  */
-size_t print_list(const list_t *h)
+int main(void)
 {
-	size_t count;
-
-	if (h == NULL)
-		return (0);
-	count = 1;
-	printf("[%d] %s\n", h->len, h->str);
-	if (h->next != NULL)
-		count += print_list(h->next);
-	return (count);
+	printf("(A tortoise, having pretty good sense of a hare's nature, challenges one to a race.)\n");
+	return (0);
 }
