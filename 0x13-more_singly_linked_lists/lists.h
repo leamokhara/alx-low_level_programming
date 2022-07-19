@@ -33,4 +33,5 @@ listint_t *reverse_recur(listint_t *first, listint_t *second);
 size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
+const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 #endif
